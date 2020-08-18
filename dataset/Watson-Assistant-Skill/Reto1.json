@@ -7,6 +7,30 @@
           "text": "como estas"
         },
         {
+          "text": "que onda"
+        },
+        {
+          "text": "buenas noches"
+        },
+        {
+          "text": "holi"
+        },
+        {
+          "text": "quibo"
+        },
+        {
+          "text": "que mas"
+        },
+        {
+          "text": "buenas buenas"
+        },
+        {
+          "text": "buen dia"
+        },
+        {
+          "text": "buenas"
+        },
+        {
           "text": "hola"
         },
         {
@@ -18,7 +42,7 @@
       "intent": "Problem_report",
       "examples": [
         {
-          "text": "se cierra inesperadamente"
+          "text": "problemas"
         },
         {
           "text": "mi outlook me marca que la licencia esta vencida"
@@ -69,6 +93,39 @@
           "text": "tengo un problema"
         },
         {
+          "text": "se cierra inesperadamente"
+        },
+        {
+          "text": "no puedo entrar a"
+        },
+        {
+          "text": "no me deja entrar a"
+        },
+        {
+          "text": "se cierra sin avisar"
+        },
+        {
+          "text": "se traba"
+        },
+        {
+          "text": "se congela la aplicación"
+        },
+        {
+          "text": "olvidé mi usuario"
+        },
+        {
+          "text": "mi contraseña no sirve"
+        },
+        {
+          "text": "la nube está caida"
+        },
+        {
+          "text": "la nube está fallando"
+        },
+        {
+          "text": "problema con la nube"
+        },
+        {
           "text": "SAP no responde"
         },
         {
@@ -80,10 +137,19 @@
       "intent": "Adios",
       "examples": [
         {
-          "text": "adios"
+          "text": "me voy"
+        },
+        {
+          "text": "vemos"
+        },
+        {
+          "text": "chao"
         },
         {
           "text": "bye"
+        },
+        {
+          "text": "adios"
         },
         {
           "text": "hasta luego"
@@ -93,6 +159,54 @@
     {
       "intent": "Request",
       "examples": [
+        {
+          "text": "No puedo entrar a la seccion de nomina en el portal"
+        },
+        {
+          "text": "quiero acceso al correo"
+        },
+        {
+          "text": "deseo agregar"
+        },
+        {
+          "text": "deseo eliminar"
+        },
+        {
+          "text": "quiero agregar"
+        },
+        {
+          "text": "quiero eliminar"
+        },
+        {
+          "text": "quiero borrar"
+        },
+        {
+          "text": "quiero poder ver la seccion de favoritpos de pega"
+        },
+        {
+          "text": "quiero modificar"
+        },
+        {
+          "text": "quiero poder ver la seccion de favoritos de pega"
+        },
+        {
+          "text": "quiero agregar otro usuario"
+        },
+        {
+          "text": "Me pueden dar acceso a portal de empleados"
+        },
+        {
+          "text": "quiero hacer un pedido"
+        },
+        {
+          "text": "Quiero que me den de alta un usuario en SAP"
+        },
+        {
+          "text": "Quiero una nueva cuenta de correo"
+        },
+        {
+          "text": "quiero cambiar"
+        },
         {
           "text": "quiero quitar todos los permisos a un usuario"
         },
@@ -107,30 +221,6 @@
         },
         {
           "text": "Pueden eliminar al usuario xyz"
-        },
-        {
-          "text": "No puedo entrar a la seccion de nomina en el portal"
-        },
-        {
-          "text": "Me pueden dar acceso a portal de empleados"
-        },
-        {
-          "text": "quiero hacer un pedido"
-        },
-        {
-          "text": "Quiero que me den de alta un usuario en SAP"
-        },
-        {
-          "text": "quiero agregar otro usuario"
-        },
-        {
-          "text": "Quiero una nueva cuenta de correo"
-        },
-        {
-          "text": "quiero poder ver la seccion de favoritos de pega"
-        },
-        {
-          "text": "quiero poder ver la seccion de favoritpos de pega"
         }
       ]
     }
@@ -175,6 +265,20 @@
       "values": [
         {
           "type": "synonyms",
+          "value": "login",
+          "synonyms": [
+            "error al tratar de entrar",
+            "autenticar",
+            "autenticacion",
+            "inicio de sesion",
+            "entrar",
+            "no puedo entrar",
+            "no logro entrar",
+            "contraseña no sirve"
+          ]
+        },
+        {
+          "type": "synonyms",
           "value": "crash",
           "synonyms": [
             "no abre la aplicacion",
@@ -189,20 +293,8 @@
           "value": "licencia",
           "synonyms": [
             "activation key",
-            "licence key"
-          ]
-        },
-        {
-          "type": "synonyms",
-          "value": "login",
-          "synonyms": [
-            "error al tratar de entrar",
-            "autenticar",
-            "autenticacion",
-            "inicio de sesion",
-            "entrar",
-            "no puedo entrar",
-            "no logro entrar"
+            "licence key",
+            "licencia"
           ]
         }
       ],
@@ -213,29 +305,11 @@
       "values": [
         {
           "type": "synonyms",
-          "value": "Siebel",
-          "synonyms": []
-        },
-        {
-          "type": "synonyms",
-          "value": "Virtual private network",
-          "synonyms": [
-            "conexión segura",
-            "VPN"
-          ]
-        },
-        {
-          "type": "synonyms",
           "value": "All",
           "synonyms": [
             "todas las aplicaciones",
             "todas las apps"
           ]
-        },
-        {
-          "type": "synonyms",
-          "value": "SAP",
-          "synonyms": []
         },
         {
           "type": "synonyms",
@@ -248,10 +322,10 @@
         },
         {
           "type": "synonyms",
-          "value": "email",
+          "value": "Virtual private network",
           "synonyms": [
-            "outlook",
-            "correo"
+            "conexión segura",
+            "VPN"
           ]
         },
         {
@@ -261,6 +335,27 @@
             "Nuevo CRM",
             "pega"
           ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Siebel",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "email",
+          "synonyms": [
+            "outlook",
+            "correo",
+            "mail",
+            "gmail",
+            "yahoo"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "SAP",
+          "synonyms": []
         }
       ]
     },
@@ -269,19 +364,19 @@
       "values": [
         {
           "type": "synonyms",
-          "value": "Negativo",
-          "synonyms": [
-            "no quiero",
-            "negativo"
-          ]
-        },
-        {
-          "type": "synonyms",
           "value": "Positivo",
           "synonyms": [
             "claro",
             "porfavor",
             "positivo"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Negativo",
+          "synonyms": [
+            "no quiero",
+            "negativo"
           ]
         }
       ],
